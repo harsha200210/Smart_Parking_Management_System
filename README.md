@@ -60,7 +60,7 @@ A microservices-based cloud-native system that enables real-time parking space m
 > Access Eureka UI at: [http://localhost:8761](http://localhost:8761)
 
 📸 Screenshot:  
-![Eureka Screenshot](./eureka-dashboard.png)
+![Eureka Screenshot](./Screenshot 2025-06-25 155740.png)
 
 ---
 
