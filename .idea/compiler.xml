@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Parking_Space_Service" />
+        <module name="Config_Server" />
+        <module name="Api-Gateway" />
+        <module name="Eureka_Server" />
+        <module name="Payment_Service" />
+        <module name="User-Service" />
+        <module name="Vehicle-Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Api_Gateway" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Api-Gateway" options="-parameters" />
+      <module name="Api_Gateway" options="-parameters" />
+      <module name="Config_Server" options="-parameters" />
+      <module name="Eureka_Server" options="-parameters" />
+      <module name="Parking_Space_Service" options="-parameters" />
+      <module name="Payment_Service" options="-parameters" />
+      <module name="User-Service" options="-parameters" />
+      <module name="Vehicle-Service" options="-parameters" />
+    </option>
+  </component>
+</project>
